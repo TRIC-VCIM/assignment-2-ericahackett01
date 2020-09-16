@@ -1,8 +1,6 @@
 function html(content) {
     document.write("<p>" + content + "</p>");
 }
-  
-html("What's Your Zodiac Sign?");
 
 let firstName = prompt("What is your first name?"); 
 
