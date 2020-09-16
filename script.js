@@ -1,4 +1,8 @@
-toHtmlPage("What's Your Zodiac Sign?");
+function html(content) {
+    document.write("<p>" + content + "</p>");
+}
+  
+html("What's Your Zodiac Sign?");
 
 let firstName = prompt("What is your first name?"); 
 
@@ -42,4 +46,4 @@ else if (birthMonth === "NOVEMBER"){
 else if (birthMonth === "DECEMBER"){ 
   zodiacSign = "Sagittarius";
 }
-toHtmlPage(firstName + ", your sign for the month of " + birthMonth + " is probably " + zodiacSign);
+html(firstName + ", your sign for the month of " + birthMonth + " is probably " + zodiacSign);
