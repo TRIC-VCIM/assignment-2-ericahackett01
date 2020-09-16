@@ -7,7 +7,7 @@ Using a series of if, if else statements determine the user's birth sign using t
 Place the following info to the HTML page: firstName, your birth sign for the month of birthMonth is probably zodiacSign."
 Submit the assignment through repl as you did last week.
 
-let firstName = prompt("What is your first name?"; 
+let firstName = prompt("What is your first name?"); 
 
 let birthMonth = prompt("what month were you born? (full month name)").toUpperCase(); 
 
